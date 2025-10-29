@@ -1,12 +1,14 @@
- /* Estilos generales */
+/* Estilos generales del body */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  display:flex;
+  display: flex;
   flex-direction: column;
   min-height: 100vh;
   background-color: whitesmoke;
 }
+
+/* Estilos del header */
 header {
   position: sticky;
   top: 0;
@@ -18,15 +20,19 @@ header {
   transition: box-shadow 0.3s ease;
 }
 
+/* Efecto hover: sombra al pasar el mouse sobre el header */
 header:hover {
   box-shadow: 0 3px 10px rgba(0,0,0,0.3);
 }
 
+/* Estilos del main */
 main {
   padding: 20px;
   text-align: center;
   flex-grow: 1;
 }
+
+/* Estilos del footer */
 footer {
   background-color: #003366;
   color: white;
@@ -36,39 +42,48 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 footer p {
   color: white;
   padding: 0;
 }
+
+/* Estilo para enlace o sección identificada como #pie */
 #pie {
   color: white;
   padding-top: 15px;
   text-decoration: none;
 }
+
+/* Estilos de navegación */
 nav {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px;
 }
+
 nav a {
   color: white;
   margin: 0 10px;
   text-decoration: none;
 }
 
+/* Efectos generales para enlaces y botones */
 a, button {
-  transition: all 0.3s ease;
-}
-a:hover, button:hover {
-  transform: scale(1.05);
+  transition: all 0.3s ease; /* Transición suave para hover */
 }
 
+a:hover, button:hover {
+  transform: scale(1.05); /* Agranda ligeramente al pasar el mouse */
+}
+
+/* Estilos de títulos */
 h1 {
   color: #003366;
 }
+
 h2 {
   color: #003366e1;
   text-align: left;
-} 
-
+}
