@@ -1,9 +1,11 @@
-  main {
+/*    Estilos generales del contenedor <main> */
+main {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 
+/* Estilos del formulario */
 form {
   max-width: 400px;
   margin: 30px auto;
@@ -15,11 +17,13 @@ form {
   align-self: center;
 }
 
+/* Estilo del título dentro del formulario */
 h2 {
   text-align: center;
   margin-bottom: 20px;
 }
 
+/* Estilos de los labels del formulario */
 label {
   display: block;
   margin-bottom: 10px;
@@ -28,6 +32,7 @@ label {
   text-indent: 10px;
 }
 
+/* Estilos de los inputs del formulario */
 input {
   width: 100%;
   padding: 8px 10px;
@@ -37,6 +42,7 @@ input {
   box-sizing: border-box;
 }
 
+/* Estilos del botón del formulario */
 button {
   width: 40%;
   padding: 10px;
@@ -50,6 +56,7 @@ button {
   transition: background 0.3s;
 }
 
+/* Efecto hover del botón */
 button:hover {
   background-color: #005fa3;
 }
