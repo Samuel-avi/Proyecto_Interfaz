@@ -5,7 +5,7 @@ Nuestro proyecto es sobre una **página web de viajes**.
 ## Instrucciones de uso
 
 1. Descarga la carpeta principal con sus archivos HTML y las carpetas `css` e `img`.
-2. Ejecuta el archivo `inicio.html`.
+2. Ejecuta el archivo `index.html`.
 3. Una vez dentro, encontrarás un **menú de navegación** que te permitirá ir a distintos sitios de la página:
    - **Header**: `Inicio`, `Destinos`, `Galería`, `Reservas`
    - **Footer**: `Quiénes somos`
