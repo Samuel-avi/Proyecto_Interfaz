@@ -55,7 +55,11 @@ button {
   margin-left: 50%;
   transition: background 0.3s;
 }
-
+/* Estilos del texto del boton*/
+button a {
+    color: white;
+    text-decoration: none;
+}
 /* Efecto hover del botón */
 button:hover {
   background-color: #005fa3;
