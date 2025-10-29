@@ -1,3 +1,4 @@
+/* Estilos principales del contenedor <main> */
 main {
   display: grid;
   grid-template-areas:
@@ -13,9 +14,9 @@ main {
   padding: 0;
   margin: 0;
   overflow: hidden;
-  
 }
 
+/* Asignación de áreas de grid a cada elemento */
 #img1 { grid-area: img1; }
 #img2 { grid-area: img2; }
 #img3 { grid-area: img3; }
@@ -26,7 +27,7 @@ main {
 #space4 { grid-area: space4; }
 #text { grid-area: text; }
 
-
+/* Estilos para las imágenes */
 #img1, #img2, #img3, #img4 {
   width: 400px;
   height: 290px;
@@ -35,17 +36,20 @@ main {
   position: relative;
   transition: transform 0.4s ease;
 }
+
+/* Efecto hover: agrandar ligeramente la imagen */
 #img1:hover, #img2:hover, #img3:hover, #img4:hover {
   transform: scale(1.03);
 }
 
-
+/* Ajuste de las imágenes internas para cubrir su contenedor */
 #img1 img, #img2 img, #img3 img, #img4 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
+/* Estilos del bloque de texto central */
 #text {
   background: white;
   margin: -100px;
@@ -56,16 +60,20 @@ main {
   z-index: 100;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
+
+/* Efecto hover: agrandar ligeramente el texto */
 #text:hover{
    transform: scale(1.03);
 }
 
+/* Estilo de los elementos <strong> dentro del texto */
 strong {
     display: block; 
     text-align: start;
     padding-top: 10px;
 }
 
+/* Media Query para pantallas pequeñas */
 @media (max-width: 700px) {
   main {
     grid-template-areas:
@@ -80,11 +88,13 @@ strong {
     padding: 20px;
   }
 
+  /* Ajuste de tamaño de las imágenes */
   #img1, #img2, #img3, #img4 {
     width: 100%;
     height: 250px;
   }
 
+  /* Ajuste del bloque de texto */
   #text {
     margin: 0;
     padding: 25px;
