@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Galería · Descubre España</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/galeria.css">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="destinos.html">Destinos</a>
+        <a href="galeria.html">Galería</a>
+        <a href="reservas.html">Reservas</a>
+    </nav>
+</header>
+
+<main>
+<section class="slideshow-container">
+    <input type="radio" name="carousel" id="slide1" checked>
+    <input type="radio" name="carousel" id="slide2">
+    <input type="radio" name="carousel" id="slide3">
+    <input type="radio" name="carousel" id="slide4">
+
+    <div class="slides">
+        <div class="slide s1"><img src="img/2-mercado-colon.jpg" alt="Mercado Colón"></div>
+        <div class="slide s2"><img src="img/basilica-sagrada-familia.jpg" alt="Sagrada Familia"></div>
+        <div class="slide s3"><img src="img/piscinas-naturales-en-valencia.jpg" alt="Piscinas Naturales Valencia"></div>
+        <div class="slide s4"><img src="img/playas-barceloneta.jpg" alt="Playas Barceloneta"></div>
+    </div>
+
+    <!-- Flechas: cada slide tiene sus propias -->
+    <!-- Slide 1 -->
+    <label for="slide4" class="prev s1">&#10094;</label>
+    <label for="slide2" class="next s1">&#10095;</label>
+    <!-- Slide 2 -->
+    <label for="slide1" class="prev s2">&#10094;</label>
+    <label for="slide3" class="next s2">&#10095;</label>
+    <!-- Slide 3 -->
+    <label for="slide2" class="prev s3">&#10094;</label>
+    <label for="slide4" class="next s3">&#10095;</label>
+    <!-- Slide 4 -->
+    <label for="slide3" class="prev s4">&#10094;</label>
+    <label for="slide1" class="next s4">&#10095;</label>
+
+    <!-- Dots -->
+    <div class="navigation-manual">
+        <label for="slide1" class="manual-btn"></label>
+        <label for="slide2" class="manual-btn"></label>
+        <label for="slide3" class="manual-btn"></label>
+        <label for="slide4" class="manual-btn"></label>
+    </div>
+</section>
+</main>
+
+<footer>
+    <p>Hecho por Diego Sanchez y Samuel Ávila</p>
+    <a id="pie" href="quienes.html">Quienes somos</a>
+</footer>
+</body>
+</html>
